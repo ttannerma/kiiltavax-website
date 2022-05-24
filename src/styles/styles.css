@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@80,300;100,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  margin: 0;
+  padding: 2rem 0;
+  height: 4rem;
+  background-color: #FFFFFF;
+}
+
+.header-title {
+  margin: 0;
+  color: #003049;
+}
+
+.layout {
+  width: 80%;
+  margin: auto;
+}
+
+.intro-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 30rem;
+  gap: 4rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 48, 73, 0.5)), to(rgba(255, 255, 255, 0.9))), -webkit-gradient(linear, left bottom, left top, from(rgba(0, 48, 73, 0.5)), to(rgba(255, 255, 255, 0.5))), url("../assets/spruce-refillable-cleaning-OxdnFg-I3Lc-unsplash.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 48, 73, 0.5), rgba(255, 255, 255, 0.9)), linear-gradient(to top, rgba(0, 48, 73, 0.5), rgba(255, 255, 255, 0.5)), url("../assets/spruce-refillable-cleaning-OxdnFg-I3Lc-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.intro-text {
+  color: #FFFFFF;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2px;
+}
+
+.intro-contact-text {
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  margin: 30px auto 0;
+  display: block;
+  font-size: 20px;
+  outline: none;
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 10px;
+}
+
+.intro-contact-text:before {
+  content: '';
+  border-bottom: 2px solid black;
+  padding: 0 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.intro-contact-text:hover:before {
+  width: 100%;
+  padding: 0;
+}
+/*# sourceMappingURL=styles.css.map */
