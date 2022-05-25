@@ -22,8 +22,8 @@ body {
 }
 
 .layout {
-  width: 70%;
-  margin: auto
+  width: 80%;
+  margin: auto;
 }
 
 .intro-wrapper {
@@ -93,6 +93,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  margin-bottom: 4rem;
 }
 
 .service-icon {
@@ -132,7 +133,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: start;
-  padding: 2rem;
+  padding: 0 4rem;
 }
 
 .secondary-intro-image {
@@ -143,6 +144,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 30px;
+  max-width: 580px;
 }
 
 .secondary-intro-title {
