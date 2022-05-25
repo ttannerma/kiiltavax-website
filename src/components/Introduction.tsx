@@ -4,7 +4,7 @@ const Introduction = () => {
   return (
     <div className="intro-wrapper">
       <h1 className="intro-text">
-        Me rakastamme siivoamista, jotta sinun ei tarvitse.
+        Meiltä saat tarvitsemasi siivouspalvelut pääkaupunkiseudulla!
       </h1>
       <p className="intro-contact-text">Ota yhteyttä</p>
     </div>
