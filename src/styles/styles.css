@@ -95,8 +95,8 @@ body {
   height: 30rem;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
   -ms-grid-rows: (1fr)[2];
       grid-template-rows: repeat(2, 1fr);
   margin-bottom: 4rem;
@@ -148,8 +148,8 @@ body {
 .secondary-intro-wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: 580px 1fr;
+      grid-template-columns: 580px 1fr;
   height: 30rem;
 }
 

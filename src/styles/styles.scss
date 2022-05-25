@@ -91,7 +91,7 @@ body {
 .service-icons-wrapper {
   height: 30rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   margin-bottom: 4rem;
 }
@@ -125,7 +125,7 @@ body {
 
 .secondary-intro-wrapper {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 580px 1fr;
   height: 30rem;
 }
 

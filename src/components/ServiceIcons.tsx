@@ -8,7 +8,7 @@ const services = [
   },
   {
     title: "Remonttisiivous",
-    imgName: "vacuum_clean.png",
+    imgName: "vacuum_clean_2.png",
   },
   {
     title: "Yrityssiivous",
@@ -24,7 +24,15 @@ const services = [
   },
   {
     title: "Tekstiilipesu",
-    imgName: "washing_machine_clean.png",
+    imgName: "washing_machine_clean_2.png",
+  },
+  {
+    title: "Ylläpitosiivous",
+    imgName: "broom_clean_2.png",
+  },
+  {
+    title: "Ikkunanpesu",
+    imgName: "bubbles_clean.png",
   },
 ];
 
