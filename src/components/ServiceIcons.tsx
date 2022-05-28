@@ -38,14 +38,16 @@ const services = [
 
 const ServiceIcons = () => {
   return (
-    <div className="service-icons-wrapper">
-      {services.map((service, i) => (
-        <ServiceIcon
-          title={service.title}
-          imgName={service.imgName}
-          key={`service_${i}`}
-        />
-      ))}
+    <div>
+      <div className="service-icons-wrapper">
+        {services.map((service, i) => (
+          <ServiceIcon
+            title={service.title}
+            imgName={service.imgName}
+            key={`service_${i}`}
+          />
+        ))}
+      </div>
     </div>
   );
 };

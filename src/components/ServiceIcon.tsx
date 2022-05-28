@@ -17,7 +17,7 @@ const ServiceIcon = (props: Props) => {
         />
       </div>
 
-      <h3 className="service-icon-title">{title}</h3>
+      <p className="service-icon-title">{title}</p>
     </div>
   );
 };
